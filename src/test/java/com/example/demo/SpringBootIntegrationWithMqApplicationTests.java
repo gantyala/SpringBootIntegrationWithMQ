@@ -52,15 +52,9 @@ import org.springframework.boot.test.rule.OutputCapture;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class SpringBootIntegrationWithMqApplicationTests extends TestCase {
-		
-		 
-		
-		    @Rule
+	    @Rule
 		
 		    public OutputCapture outputCapture = new OutputCapture();
-		
-		 
-		
 		    @Autowired
 		
 		    @Qualifier("jmsConnectionFactory")
